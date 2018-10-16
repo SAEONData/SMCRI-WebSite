@@ -16,7 +16,7 @@
     <ul id="slide-out" class="side-nav">
 
         <li class="no-padding">
-            <img style="width: 200px; padding-left:40px" src="image/logo_SAEON.png">
+            <img style="width: 200px; padding-left:40px" src="Images/NRF-SAEON LOGO.jpg">
         </li>
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
@@ -85,10 +85,7 @@
         </li>
 
 
-        <!--<img  style="width:200px" src="image/logo_dst.png">
-        <img  style="width:200px" src="image/logo_dea.png">
-        <img  style="width:200px" src="image/logo_drdlr.png">-->
-        <li class="no-padding"><img style="width:240px" src="image/logo_odp.png"></li>
+        <li class="no-padding"><img style="width:240px" src="Images/logo_odp.png"></li>
 
 
     </ul>
@@ -96,7 +93,7 @@
 
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
-            <img style="width: 200px;" src="image/logo_nrf_badge_beta.png">
+            <img style="height:60px;" src="Images/NRF-SAEON LOGO.jpg">
             <a id="logo-container" href="#" class="brand-logo">&nbsp;&nbsp;</a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="modal-trigger" href="#about-modal">About</a></li>
@@ -146,7 +143,7 @@
                 </div>
                 <div class="col m4 s12">
                     <h5 class="white-text light">Funding</h5>
-                    <img src="image/logo_dst.png">
+                    <img src="Images/logo_DST.png">
                 </div>
             </div>
         </div>
@@ -163,6 +160,12 @@
     <div id="about-modal" class="modal">
         <div class="modal-content">
             <h5>About</h5>
+        </div>
+    </div>
+
+    <div id="ccu-modal" class="modal">
+        <div class="modal-content">
+            <h5>Central Coordinating Unit</h5>
         </div>
     </div>
 
@@ -192,6 +195,9 @@
 
                     if (element.id === 'about-modal') {
                         iframe.src = "page_about.html";
+                    }
+                    else if (element.id === 'ccu-modal') {
+                        iframe.src = "page_ccu.html";
                     }
                     else if (element.id === 'contact-modal') {
                         iframe.src = "page_contact.html";
