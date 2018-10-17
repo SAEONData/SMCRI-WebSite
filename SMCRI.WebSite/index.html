@@ -6,9 +6,9 @@
     <title>SMCRI</title>
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/overwrites.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/overwrites.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 <body>
 
@@ -27,9 +27,8 @@
                             <li><a class="modal-trigger" href="#about-modal" style="font-size:12px; text-indent:50px">About</a></li>
                             <li><a class="modal-trigger" href="#ccu-modal" style="font-size:12px; text-indent:50px">Central Coordinating Unit</a></li>
                             <li><a class="modal-trigger" href="#valuechain-modal" style="font-size:12px; text-indent:50px">Value Chain</a></li>
-                            <li><a class="modal-trigger" href="#credits-modal" style="font-size:12px; text-indent:50px">Credits</a></li>
-                            <li><a class="modal-trigger" href="#contact-modal" style="font-size:12px; text-indent:50px">Contact</a></li>
-                            <li><a class="modal-trigger" href="#resources-modal" style="font-size:12px; text-indent:50px">Resources/Links</a></li>
+                            <li><a class="modal-trigger" href="#contact-modal" style="font-size:12px; text-indent:50px">Contacts</a></li>
+                            <li><a class="modal-trigger" href="#resources-modal" style="font-size:12px; text-indent:50px">Resources</a></li>
                         </ul>
                     </div>
                 </li>
@@ -74,7 +73,9 @@
         </li>
         <li class="no-padding"><img style="width:240px" src="Images/logo_odp.png"></li>
     </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse "><i class="small material-icons black-text">menu</i></a>
+    <div class="valign-wrapper">
+        <a href="#" data-activates="slide-out" class="button-collapse "><i class="small material-icons black-text">menu</i></a><b>Menu</b>
+    </div>
 
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
@@ -82,7 +83,8 @@
             <a id="logo-container" href="#" class="brand-logo">&nbsp;&nbsp;</a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="modal-trigger" href="#about-modal">About</a></li>
-                <li><a class="modal-trigger" href="#contact-modal">Contact</a></li>
+                <li><a class="modal-trigger" href="#contact-modal">Contacts</a></li>
+                <li><a class="modal-trigger" href="#resources-modal">Resources</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
@@ -101,11 +103,7 @@
                         <h5 class="header col s12 light">Managing research infrastructure for the benefit of the community</h5>
                     </div>
                 </div>
-                <div class="carousel carousel-slider center">
-                    <a class="carousel-item" href="#one!"><img src="Images/SMCRI Booklet-map.png" /></a>
-                    <!--                        <a class="carousel-item" href="#two!"><img src="Images/SMCRI Booklet-1.png" style="height:800px;width:564px" class="center center-align"></a>-->
-                    <a class="carousel-item" href="#three!"><img src="Images/SMCRI Booklet-value chain.png"></a>
-                </div>
+                <div><img src="/Images/SMCRI Booklet-map.png" alt="SMCRI map" style="width:100%"></div>
             </div>
         </div>
     </div>
@@ -132,7 +130,7 @@
                 </div>
                 <div class="col m4 s12">
                     <h5 class="white-text light">Funding</h5>
-                    <img src="Images/logo_DST.png">
+                    <img src="/Images/logo_DST.png">
                 </div>
             </div>
         </div>
@@ -336,14 +334,16 @@
     </div>
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/pageStyles.js"></script>
-    <script src="js/pageFunctions.js"></script>
-
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/js/materialize.min.js"></script>
+    <script src="/js/init.js"></script>
 
     <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 360
+        });
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
         $(document).ready(function () {
             $('.modal').modal({
                 //opacity: .5,
@@ -417,16 +417,6 @@
                 }
             });
         });
-        $('.carousel').carousel({
-            fullWidth: true,
-            indicators: true
-        });
-        function autoplay() {
-            $('.carousel').carousel('next');
-            setTimeout(autoplay, 5000);
-        }
-        setTimeout(autoplay, 5000);
-
     </script>
 </body>
 </html>
