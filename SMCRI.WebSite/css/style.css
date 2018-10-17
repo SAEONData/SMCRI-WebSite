@@ -61,3 +61,27 @@ footer.page-footer {
     height: 30px;
     width: auto;
 }
+
+a:link .menu-link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited .menu-link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover .menu-link {
+    color: black;
+    text-decoration: none;
+}
+
+a:active .menu-link {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-link {
+    color: black;
+}

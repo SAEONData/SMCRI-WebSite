@@ -74,7 +74,7 @@
         <li class="no-padding"><img style="width:240px" src="Images/logo_odp.png"></li>
     </ul>
     <div class="valign-wrapper">
-        <a href="#" data-activates="slide-out" class="button-collapse "><i class="small material-icons black-text">menu</i></a><b>Menu</b>
+        <a href="#" data-activates="slide-out" class="button-collapse menu-link"><i class="small material-icons black-text">menu</i></a><a href="#" data-activates="slide-out" class="menu-link">Menu</a>
     </div>
 
     <nav class="white" role="navigation">
@@ -342,7 +342,9 @@
         $('.button-collapse').sideNav({
             menuWidth: 360
         });
-        $('.button-collapse').sideNav();
+        $('.menu-link').sideNav({
+            menuWidth: 360
+        });
         $('.parallax').parallax();
         $(document).ready(function () {
             $('.modal').modal({
