@@ -13,7 +13,16 @@
         <div class="col s12 m6">
             <div class="card grey lighten-1">
                 <div class="card-content black-text">
-                    <div class="slider">
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="Images/Algoa bay Sentinel Site_1.jpg" /></a>
+                        <a class="carousel-item" href="#two!"><img src="Images/Algoa bay Sentinel Site_2.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="Images/Algoa Bay SS_2.jpg"></a>
+                        <a class="carousel-item" href="#four!"><img src="Images/Algoa Bay SS_4_PlonStephanie.JPG"></a>
+                        <a class="carousel-item" href="#five!"><img src="Images/Algoa Bay SS_5_PlonStephanie.JPG"></a>
+                        <a class="carousel-item" href="#six!"><img src="Images/Algoa BaySS_3_PlonStephanie.JPG"></a>
+                        <a class="carousel-item" href="#seven!"><img src="Images/Algoa Bay Sentinel Site_map.jpg"></a>
+                    </div>
+                    <!--<div class="slider">
                         <ul class="slides">
                             <li><img src="Images/Algoa bay Sentinel Site_1.jpg" /></li>
                             <li><img src="Images/Algoa bay Sentinel Site_2.jpg"></li>
@@ -23,22 +32,12 @@
                             <li><img src="Images/Algoa BaySS_3_PlonStephanie.JPG"></li>
                             <li><img src="Images/Algoa Bay Sentinel Site_map.jpg"></li>
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
             </div>
-
-            <!--<div class="carousel carousel-slider grey lighten-2">
-        <a class="carousel-item" href="#one!"><img src="Images/Algoa bay Sentinel Site_1.jpg" /></a>
-        <a class="carousel-item" href="#two!"><img src="Images/Algoa bay Sentinel Site_2.jpg"></a>
-        <a class="carousel-item" href="#three!"><img src="Images/Algoa Bay SS_2.jpg"></a>
-        <a class="carousel-item" href="#four!"><img src="Images/Algoa Bay SS_4_PlonStephanie.JPG"></a>
-        <a class="carousel-item" href="#five!"><img src="Images/Algoa Bay SS_5_PlonStephanie.JPG"></a>
-        <a class="carousel-item" href="#six!"><img src="Images/Algoa BaySS_3_PlonStephanie.JPG"></a>
-        <a class="carousel-item" href="#seven!"><img src="Images/Algoa Bay Sentinel Site_map.jpg"></a>
-    </div>-->
         </div>
         <div class="col s12 m6">
-            <div class="card grey lighten-2">
+            <div class="card grey lighten-1">
                 <div class="card-content black-text">
                     <span class="card-title">Algoa Bay Sentinel Site</span>
                     <p>
@@ -103,19 +102,19 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
-        $('.slider').slider({
-            indicators: true,
-            interval: 2000
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
         });
-        //$('.carousel').carousel({
-        //    fullWidth: true,
-        //    indicators: true
-        //});
-        //function autoplay() {
-        //    $('.carousel').carousel('next');
-        //    setTimeout(autoplay, 2000);
-        //}
-        //setTimeout(autoplay, 2000);
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 2000);
+        }
+        setTimeout(autoplay, 2000);
+            //$('.slider').slider({
+            //    indicators: true,
+            //    interval: 2000
+            //});
     </script>
 </body>
 </html>

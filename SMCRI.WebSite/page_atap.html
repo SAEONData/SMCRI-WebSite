@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card grey lighten-1">
+                <div class="card-content black-text">
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="Images/Acoustic telemetry_3.jpg" /></a>
+                        <a class="carousel-item" href="#two!"><img src="Images/Acoustic telemetry_1.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="Images/Acoustic telemetry_2.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card grey lighten-1">
+                <div class="card-content black-text">
+                    <span class="card-title">Acoustic Telemetry Array Platform</span>
+                    <p>
+                        The Acoustic Telemetry Array Platform
+                        was developed by SAIAB and consists
+                        of over 100 in situ telemetry receiver
+                        stations along the coast from Cape Town to
+                        Ponto De Ouro. The receivers are located
+                        in depths from 15 to 80 m. The platform
+                        manages the receiver network (receiver
+                        deployment and retrieval) and manages a
+                        database of all detections. Collaborating
+                        partners tag species (> 30 different species)
+                        according to their research programmes
+                        and at present there are 573 known active
+                        transmitters in the water, the majority of which
+                        are long-life transmitters (up to 3 650 days).
+                        Currently, the receiver network comprises 66
+                        offshore stations (12 Vemco VR2W units on
+                        Sub Sea Sonics acoustic releases, 15 VR2W
+                        units on diver-retrieved fixed moorings and
+                        40 Vemco VR2AR receiver/release units) and
+                        38 VR2W estuary stations. Although the ATAP
+                        is a mature platform, the SMCRI will improve
+                        the coverage and facilitate the expansion
+                        of the research infrastructure up the West
+                        Coast. ATAP is also well positioned on the
+                        international arena and continues to have
+                        strong ties with the Canadian-based Ocean
+                        Tracking Network (OTN) project.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 2000);
+        }
+        setTimeout(autoplay, 2000);
+    </script>
+</body>
+</html>

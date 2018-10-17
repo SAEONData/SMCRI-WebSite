@@ -13,11 +13,16 @@
         <div class="col s12 m6">
             <div class="card grey lighten-1">
                 <div class="card-content black-text">
-                    <div class="slider">
-                        <ul class="slides">
-                            <li><img src="Images/" /></li>
-                            <li><img src="Images/" /></li>
-                        </ul>
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="Images/" /></a>
+                        <a class="carousel-item" href="#two!"><img src="Images/"></a>
+                        <a class="carousel-item" href="#three!"><img src="Images/"></a>
+                        <a class="carousel-item" href="#four!"><img src="Images/"></a>
+                        <a class="carousel-item" href="#five!"><img src="Images/"></a>
+                        <a class="carousel-item" href="#six!"><img src="Images/"></a>
+                        <a class="carousel-item" href="#seven!"><img src="Images/"></a>
+                        <a class="carousel-item" href="#eight!"><img src="Images/"></a>
+                        <a class="carousel-item" href="#nine!"><img src="Images/"></a>
                     </div>
                 </div>
             </div>
@@ -28,9 +33,7 @@
                     <span class="card-title">Title</span>
                     <p>
                     </p>
-                    <p>
-                        <br />
-                    </p>
+                    <br />
                     <p>
                     </p>
                 </div>
@@ -41,10 +44,15 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
-        $('.slider').slider({
-            indicators: true,
-            interval: 2000
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
         });
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 2000);
+        }
+        setTimeout(autoplay, 2000);
     </script>
 </body>
 </html>

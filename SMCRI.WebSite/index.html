@@ -26,8 +26,10 @@
                         <ul>
                             <li><a class="modal-trigger" href="#about-modal" style="font-size:12px; text-indent:50px">About</a></li>
                             <li><a class="modal-trigger" href="#ccu-modal" style="font-size:12px; text-indent:50px">Central Coordinating Unit</a></li>
-                            <li><a class="modal-trigger" href="#vc-modal" style="font-size:12px; text-indent:50px">Value Chain</a></li>
+                            <li><a class="modal-trigger" href="#valuechain-modal" style="font-size:12px; text-indent:50px">Value Chain</a></li>
+                            <li><a class="modal-trigger" href="#credits-modal" style="font-size:12px; text-indent:50px">Credits</a></li>
                             <li><a class="modal-trigger" href="#contact-modal" style="font-size:12px; text-indent:50px">Contact</a></li>
+                            <li><a class="modal-trigger" href="#resources-modal" style="font-size:12px; text-indent:50px">Resources/Links</a></li>
                         </ul>
                     </div>
                 </li>
@@ -70,19 +72,6 @@
                 </li>
             </ul>
         </li>
-
-        <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-                <li>
-                    <a class="collapsible-header">Resources / Links<i class="material-icons">arrow_drop_down</i></a>
-                    <div class="collapsible-body">
-                        <ul>
-                            <li><a class="modal-trigger" href="#contacts-modal" style="font-size:12px; text-indent:50px">Contacts</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </li>
         <li class="no-padding"><img style="width:240px" src="Images/logo_odp.png"></li>
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse "><i class="small material-icons black-text">menu</i></a>
@@ -107,12 +96,16 @@
         <div class="section">
             <div class="row">
                 <div class="col s12  grey">
-                    <h2 class="header center darkblue-text text-lighten-2"><b>SMCRI</b><br />Shallow Marine and Coastal Research Infrastructure</h2>
+                    <h2 class="header center darkblue-text text-lighten-1"><b>SMCRI</b><br />Shallow Marine and Coastal Research Infrastructure</h2>
                     <div class="row center">
                         <h5 class="header col s12 light">Managing research infrastructure for the benefit of the community</h5>
                     </div>
                 </div>
-                <div><img src="Images/SMCRI Booklet-map.png" alt="SMCRI map" style="width:100%"></div>
+                <div class="carousel carousel-slider center">
+                    <a class="carousel-item" href="#one!"><img src="Images/SMCRI Booklet-map.png" /></a>
+                    <!--                        <a class="carousel-item" href="#two!"><img src="Images/SMCRI Booklet-1.png" style="height:800px;width:564px" class="center center-align"></a>-->
+                    <a class="carousel-item" href="#three!"><img src="Images/SMCRI Booklet-value chain.png"></a>
+                </div>
             </div>
         </div>
     </div>
@@ -154,8 +147,8 @@
     <!--GENERAL MODAL-->
 
     <div id="about-modal" class="modal">
-        <div class="modal-content">
-            <div class="row">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row valign-wrapper">
                 <div class="col s10"><h5>SMCRI</h5></div>
                 <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
             </div>
@@ -163,7 +156,27 @@
     </div>
 
     <div id="ccu-modal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>SMCRI</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="valuechain-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>SMCRI</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="credits-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
             <div class="row">
                 <div class="col s10"><h5>SMCRI</h5></div>
                 <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
@@ -173,7 +186,17 @@
     </div>
 
     <div id="contact-modal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>SMCRI</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="resources-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
             <div class="row">
                 <div class="col s10"><h5>SMCRI</h5></div>
                 <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
@@ -183,7 +206,7 @@
     </div>
 
     <div id="abss-modal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
             <div class="row">
                 <div class="col s10"><h5>Sentinel Sites</h5></div>
                 <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
@@ -193,9 +216,119 @@
     </div>
 
     <div id="toss-modal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
             <div class="row">
                 <div class="col s10"><h5>Sentinel Sites</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="nbss-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Sentinel Sites</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="miss-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Sentinel Sites</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sss-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Sentinel Sites</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="arsp-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="cbgcp-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="hcp-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="dmp-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="ccp-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="atap-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="mrip-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sep-modal" class="modal">
+        <div class="modal-content" style="padding-bottom:0;margin-bottom:0">
+            <div class="row">
+                <div class="col s10"><h5>Platforms</h5></div>
                 <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
             </div>
 
@@ -226,22 +359,74 @@
                     else if (element.id === 'ccu-modal') {
                         iframe.src = "page_ccu.html";
                     }
+                    else if (element.id === 'valuechain-modal') {
+                        iframe.src = "page_valuechain.html";
+                    }
+                    else if (element.id === 'credits-modal') {
+                        iframe.src = "page_credits.html";
+                    }
+                    else if (element.id === 'contact-modal') {
+                        iframe.src = "page_contact.html";
+                    }
+                    else if (element.id === 'resources-modal') {
+                        iframe.src = "page_resources.html";
+                    }
                     else if (element.id === 'abss-modal') {
                         iframe.src = "page_abss.html";
                     }
                     else if (element.id === 'toss-modal') {
                         iframe.src = "page_toss.html";
                     }
-                    else if (element.id === 'contact-modal') {
-                        iframe.src = "page_contact.html";
+                    else if (element.id === 'nbss-modal') {
+                        iframe.src = "page_nbss.html";
                     }
-                    iframe.height = "98%";
+                    else if (element.id === 'miss-modal') {
+                        iframe.src = "page_miss.html";
+                    }
+                    else if (element.id === 'sss-modal') {
+                        iframe.src = "page_sss.html";
+                    }
+                    else if (element.id === 'arsp-modal') {
+                        iframe.src = "page_arsp.html";
+                    }
+                    else if (element.id === 'cbgcp-modal') {
+                        iframe.src = "page_cbgcp.html";
+                    }
+                    else if (element.id === 'hcp-modal') {
+                        iframe.src = "page_hcp.html";
+                    }
+                    else if (element.id === 'dmp-modal') {
+                        iframe.src = "page_dmp.html";
+                    }
+                    else if (element.id === 'ccp-modal') {
+                        iframe.src = "page_ccp.html";
+                    }
+                    else if (element.id === 'atap-modal') {
+                        iframe.src = "page_atap.html";
+                    }
+                    else if (element.id === 'mrip-modal') {
+                        iframe.src = "page_mrip.html";
+                    }
+                    else if (element.id === 'sep-modal') {
+                        iframe.src = "page_sep.html";
+                    }
+                    iframe.height = "100%";
                     iframe.width = "100%";
 
                     element.appendChild(iframe);
                 }
             });
         });
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 5000);
+        }
+        setTimeout(autoplay, 5000);
+
     </script>
 </body>
 </html>

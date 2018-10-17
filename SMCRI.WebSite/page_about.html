@@ -13,17 +13,17 @@
         <div class="col s12 m6">
             <div class="card grey lighten-1">
                 <div class="card-content black-text">
-                    <div class="slider">
-                        <ul class="slides">
-                            <li><img src="Images/Diver_anywhere.jpg" /></li>
-                            <li><img src="Images/Where you want_2.jpg" /></li>
-                        </ul>
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="Images/Diver_anywhere.jpg" /></a>
+                        <a class="carousel-item" href="#two!"><img src="Images/Where you want_2.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="Images/SMCRI Booklet-1.png"></a>
+                        <a class="carousel-item" href="#four!"><img src="Images/Introduction_1.bmp"></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col s12 m6">
-            <div class="card grey lighten-2">
+            <div class="card grey lighten-1">
                 <div class="card-content black-text">
                     <span class="card-title">About</span>
                     <p>
@@ -33,7 +33,7 @@
                         developed by the Department of Science
                         and Technology (DST) as part of the South
                         African Research Infrastructure Roadmap
-                        (SARIR). The SMCRI was established in
+                        (<a href="docs/SARIR booklet.pdf" target="_blank">SARIR</a>). The SMCRI was established in
                         2016 to develop an array of instruments
                         and physical research platforms around the
                         coast of South Africa and its subantarctic
@@ -58,7 +58,7 @@
                         (SAEON) and the South African Institute for
                         Aquatic Biodiversity (SAIAB).
                     </p>
-                    <p><br /></p>
+                    <br />
                     <p>
                         Key stakeholders of the SMCRI include
                         Higher Education Institutions, Research
@@ -75,15 +75,30 @@
             </div>
         </div>
     </div>
+    <!--<div class="row">
+        <div class="col s12 grey darkblue-text text-lighten-1 center">
+            <h5>Shallow Marine and Coastal Research Infrastructure</h5>
+            <h6>Managing research infrastructure for the benefit of the community</h6>
+        </div>
+    </div>-->
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
-        $('.slider').slider({
-            indicators: true,
-            interval: 2000,
-            height: 600
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
         });
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 2000);
+        }
+        setTimeout(autoplay, 2000);
+                    //$('.slider').slider({
+                    //    indicators: true,
+                    //    interval: 2000,
+                    //    height: 600
+                    //});
     </script>
 </body>
 </html>

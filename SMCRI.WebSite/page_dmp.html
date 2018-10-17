@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card grey lighten-1">
+                <div class="card-content black-text">
+                    <div class="carousel carousel-slider">
+                        <a class="carousel-item" href="#one!"><img src="Images/Data Management Platform 03.PNG" /></a>
+                        <a class="carousel-item" href="#two!"><img src="Images/DMP 2.jpg" ></a>
+                        <a class="carousel-item" href="#three!"><img src="Images/DMP 3.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6">
+            <div class="card grey lighten-1">
+                <div class="card-content black-text">
+                    <span class="card-title">Data Management Platform</span>
+                    <p>
+                        The SMCRI will produce a variety of
+                        data products and services in support
+                        of scientific research and decision
+                        making at the interface of science, society
+                        and policy, locally as well as internationally.
+                        The Data Management Platform centralises
+                        the coordination of data workflows from the
+                        point of observation to implementation by
+                        the user. Responsibilities therefore include
+                        cleaning, verification, accessioning and
+                        effective dissemination of observational data.
+                        Infrastructural investment at the CCU allows
+                        for fast internet connection (Gigabit) and
+                        access to physical and cloud-based servers.
+                        Fast connection is operationally imperative
+                        to allow for movement of large data batches
+                        to and from servers as well as handling the
+                        constant influx of continuously transmitted data
+                        from remotely stationed sensors like Coastal
+                        Observation Moorings. To meet the demand
+                        for safe storage and effective delivery of good
+                        quality data the SMCRI will utilise existing
+                        data products already in use by SAEON and
+                        partner institutions like the Observations
+                        Database, South African Estuaries Information
+                        System (SAEIS) and the Marine Information
+                        Management System (MIMS), while remaining
+                        responsive to future needs where such
+                        resources may not be sufficient. All data and
+                        data products produced by the SMCRI will be
+                        openly available and provided unencumbered
+                        through free and timely access.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $('.carousel').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+        function autoplay() {
+            $('.carousel').carousel('next');
+            setTimeout(autoplay, 2000);
+        }
+        setTimeout(autoplay, 2000);
+    </script>
+</body>
+</html>
