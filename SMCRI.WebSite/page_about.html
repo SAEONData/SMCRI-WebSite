@@ -11,15 +11,21 @@
 <body>
     <div class="row">
         <div class="col s12 m6">
-            <div class="carousel carousel-slider">
-                <a class="carousel-item" href="#one!"><img src="Images/Diver_anywhere.jpg" /></a>
-                <a class="carousel-item" href="#two!"><img src="Images/Where you want_2.jpg"></a>
+            <div class="card grey lighten-1">
+                <div class="card-content black-text">
+                    <div class="slider">
+                        <ul class="slides">
+                            <li><img src="Images/Diver_anywhere.jpg" /></li>
+                            <li><img src="Images/Where you want_2.jpg" /></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col s12 m6">
             <div class="card grey lighten-2">
                 <div class="card-content black-text">
-                    <!--<span class="card-title">About SMCRI</span>-->
+                    <span class="card-title">About</span>
                     <p>
                         The Shallow Marine and Coastal
                         Research Infrastructure (SMCRI) is one
@@ -73,15 +79,11 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript">
-        $('.carousel').carousel({
-            fullWidth: true,
-            indicators: true
+        $('.slider').slider({
+            indicators: true,
+            interval: 2000,
+            height: 600
         });
-        function autoplay() {
-            $('.carousel').carousel('next');
-            setTimeout(autoplay, 2000);
-        }
-        setTimeout(autoplay, 2000);
     </script>
 </body>
 </html>

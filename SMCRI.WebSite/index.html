@@ -83,13 +83,9 @@
                 </li>
             </ul>
         </li>
-
-
         <li class="no-padding"><img style="width:240px" src="Images/logo_odp.png"></li>
-
-
     </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse "><i class="small material-icons grey-text ">menu</i></a>
+    <a href="#" data-activates="slide-out" class="button-collapse "><i class="small material-icons black-text">menu</i></a>
 
     <nav class="white" role="navigation">
         <div class="nav-wrapper container">
@@ -159,19 +155,50 @@
 
     <div id="about-modal" class="modal">
         <div class="modal-content">
-            <h5>About</h5>
+            <div class="row">
+                <div class="col s10"><h5>SMCRI</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
         </div>
     </div>
 
     <div id="ccu-modal" class="modal">
         <div class="modal-content">
-            <h5>Central Coordinating Unit</h5>
+            <div class="row">
+                <div class="col s10"><h5>SMCRI</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
         </div>
     </div>
 
     <div id="contact-modal" class="modal">
         <div class="modal-content">
-            <h5>Contact</h5>
+            <div class="row">
+                <div class="col s10"><h5>SMCRI</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="abss-modal" class="modal">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s10"><h5>Sentinel Sites</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="toss-modal" class="modal">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col s10"><h5>Sentinel Sites</h5></div>
+                <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+            </div>
+
         </div>
     </div>
 
@@ -198,6 +225,12 @@
                     }
                     else if (element.id === 'ccu-modal') {
                         iframe.src = "page_ccu.html";
+                    }
+                    else if (element.id === 'abss-modal') {
+                        iframe.src = "page_abss.html";
+                    }
+                    else if (element.id === 'toss-modal') {
+                        iframe.src = "page_toss.html";
                     }
                     else if (element.id === 'contact-modal') {
                         iframe.src = "page_contact.html";
