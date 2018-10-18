@@ -3,32 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SMCRI.WebSite", "SMCRI.WebSite\", "{1351C7CF-5DA3-4959-84E2-D652D08BFA77}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F135B19E-7DD9-4A26-BB13-7DCBC146B1AF}"
+	ProjectSection(SolutionItems) = preProject
+		License.md = License.md
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SMCRI.WebSite", "SMCRI.WebSite.Html\", "{1351C7CF-5DA3-4959-84E2-D652D08BFA77}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64763"
-		Debug.AspNetCompiler.PhysicalPath = "SMCRI.WebSite\"
+		Debug.AspNetCompiler.PhysicalPath = "SMCRI.WebSite.Html\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64763\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_64763"
-		Release.AspNetCompiler.PhysicalPath = "SMCRI.WebSite\"
+		Release.AspNetCompiler.PhysicalPath = "SMCRI.WebSite.Html\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64763\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "64763"
-		SlnRelativePath = "SMCRI.WebSite\"
+		SlnRelativePath = "SMCRI.WebSite.Html\"
 		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F135B19E-7DD9-4A26-BB13-7DCBC146B1AF}"
-	ProjectSection(SolutionItems) = preProject
-		License.md = License.md
-		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
 Global
