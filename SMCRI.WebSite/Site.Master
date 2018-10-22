@@ -425,7 +425,7 @@
                         iframe.src = "PageCredits.aspx";
                     }
                     else if (element.id === 'contact-modal') {
-                        iframe.src = "PageContact.aspx";
+                        iframe.src = "PageContacts.aspx";
                     }
                     else if (element.id === 'resources-modal') {
                         iframe.src = "PageResources.aspx";

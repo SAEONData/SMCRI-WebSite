@@ -181,7 +181,7 @@
     <Content Include="PageCBGCP.aspx" />
     <Content Include="PageCCP.aspx" />
     <Content Include="PageCCU.aspx" />
-    <Content Include="PageContact.aspx" />
+    <Content Include="PageContacts.aspx" />
     <Content Include="PageCredits.aspx" />
     <Content Include="PageDMP.aspx" />
     <Content Include="PageHCP.aspx" />
@@ -208,8 +208,10 @@
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="sitemap.xml" />
     <Content Include="Web.config" />
     <Content Include="Site.Master" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Index.aspx.cs">
@@ -282,12 +284,12 @@
     <Compile Include="PageCCU.aspx.designer.cs">
       <DependentUpon>PageCCU.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PageContact.aspx.cs">
-      <DependentUpon>PageContact.aspx</DependentUpon>
+    <Compile Include="PageContacts.aspx.cs">
+      <DependentUpon>PageContacts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PageContact.aspx.designer.cs">
-      <DependentUpon>PageContact.aspx</DependentUpon>
+    <Compile Include="PageContacts.aspx.designer.cs">
+      <DependentUpon>PageContacts.aspx</DependentUpon>
     </Compile>
     <Compile Include="PageCredits.aspx.cs">
       <DependentUpon>PageCredits.aspx</DependentUpon>
@@ -417,6 +419,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

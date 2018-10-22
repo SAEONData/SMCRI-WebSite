@@ -1,9 +1,9 @@
-﻿<%@ Page Title="Contacts" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageContact.aspx.cs" Inherits="SMCRI.WebSite.PageContact" %>
+﻿<%@ Page Title="Contacts" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageContacts.aspx.cs" Inherits="SMCRI.WebSite.PageContact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
         <div class="col s12 m6">
-            <div class="card grey lighten-1" style="min-height:425px">
+            <div class="card grey lighten-1" style="min-height:450px">
                 <div class="card-content black-text">
                     <span class="card-title"><h4>Contact Central Coordinating Unit</h4><img src="/Images/NRF-SAEON LOGO.jpg" class="card-logo right" /></span>
                     <p>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="col s12 m6">
-            <div class="card grey lighten-1" style="min-height:425px">
+            <div class="card grey lighten-1" style="min-height:450px">
                 <div class="card-content black-text">
                     <span class="card-title"><h4>Contact SAIAB</h4><img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" /></span>
                     <p>
