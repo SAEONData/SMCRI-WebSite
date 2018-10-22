@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <!--Import Google Icon Font-->
@@ -27,32 +27,14 @@
 </head>
 <body>
     <div class="row">
-        <div class="col s12 m6">
+        <div class="col s12">
             <div class="card grey lighten-1">
                 <div class="card-content black-text">
-                    <div class="carousel carousel-slider">
-                        <a class="carousel-item" href="#one!"><img src="/Images/" /></a>
-                        <a class="carousel-item" href="#two!"><img src="/Images/"></a>
-                        <a class="carousel-item" href="#three!"><img src="/Images/"></a>
-                        <a class="carousel-item" href="#four!"><img src="/Images/"></a>
-                        <a class="carousel-item" href="#five!"><img src="/Images/"></a>
-                        <a class="carousel-item" href="#six!"><img src="/Images/"></a>
-                        <a class="carousel-item" href="#seven!"><img src="/Images/"></a>
-                        <a class="carousel-item" href="#eight!"><img src="/Images/"></a>
-                        <a class="carousel-item" href="#nine!"><img src="/Images/"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m6">
-            <div class="card grey lighten-1">
-                <div class="card-content black-text">
-                    <span class="card-title">Title</span>
-                    <p>
-                    </p>
-                    <br />
-                    <p>
-                    </p>
+                    <span class="card-title">Shallow Marine and Coastal Research Infrastructure Launch Video</span>
+                    <video controls autoplay height="800">
+                        <source src="/docs/SMCRI Launch Video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
@@ -60,16 +42,5 @@
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="/Scripts/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="/js/materialize.min.js"></script>
-    <script type="text/javascript">
-        $('.carousel').carousel({
-            fullWidth: true,
-            indicators: true
-        });
-        function autoplay() {
-            $('.carousel').carousel('next');
-            setTimeout(autoplay, 2000);
-        }
-        setTimeout(autoplay, 2000);
-    </script>
 </body>
 </html>
