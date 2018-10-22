@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageBlank.aspx.cs" Inherits="SMCRI.WebSite.PageBlank" %>
+﻿<%@ Page Title="Title" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageBlank.aspx.cs" Inherits="SMCRI.WebSite.PageBlank" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
@@ -32,7 +32,7 @@
     <div class="col s12 m6">
         <div class="card grey lighten-1">
             <div class="card-content black-text">
-                <span class="card-title">Title</span>
+                <span class="card-title"><h4>Title</h4></span>
                 <p>
                 </p>
                 <br />

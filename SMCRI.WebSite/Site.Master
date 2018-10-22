@@ -416,58 +416,58 @@
                         iframe.src = "PageAbout.aspx";
                     }
                     else if (element.id === 'ccu-modal') {
-                        iframe.src = "page_ccu.html";
+                        iframe.src = "PageCCU.aspx";
                     }
                     else if (element.id === 'valuechain-modal') {
-                        iframe.src = "page_valuechain.html";
+                        iframe.src = "PageValueChain.aspx";
                     }
                     else if (element.id === 'credits-modal') {
-                        iframe.src = "page_credits.html";
+                        iframe.src = "PageCredits.aspx";
                     }
                     else if (element.id === 'contact-modal') {
                         iframe.src = "PageContact.aspx";
                     }
                     else if (element.id === 'resources-modal') {
-                        iframe.src = "page_resources.html";
+                        iframe.src = "PageResources.aspx";
                     }
                     else if (element.id === 'abss-modal') {
-                        iframe.src = "page_abss.html";
+                        iframe.src = "PageABSS.aspx";
                     }
                     else if (element.id === 'toss-modal') {
-                        iframe.src = "page_toss.html";
+                        iframe.src = "PageTOSS.aspx";
                     }
                     else if (element.id === 'nbss-modal') {
-                        iframe.src = "page_nbss.html";
+                        iframe.src = "PageNBSS.aspx";
                     }
                     else if (element.id === 'miss-modal') {
-                        iframe.src = "page_miss.html";
+                        iframe.src = "PageMISS.aspx";
                     }
                     else if (element.id === 'sss-modal') {
-                        iframe.src = "page_sss.html";
+                        iframe.src = "PageSSS.aspx";
                     }
                     else if (element.id === 'arsp-modal') {
-                        iframe.src = "page_arsp.html";
+                        iframe.src = "PageARSP.aspx";
                     }
                     else if (element.id === 'cbgcp-modal') {
-                        iframe.src = "page_cbgcp.html";
+                        iframe.src = "PageCBGCP.aspx";
                     }
                     else if (element.id === 'hcp-modal') {
-                        iframe.src = "page_hcp.html";
+                        iframe.src = "PageHCP.aspx";
                     }
                     else if (element.id === 'dmp-modal') {
-                        iframe.src = "page_dmp.html";
+                        iframe.src = "PageDMP.aspx";
                     }
                     else if (element.id === 'ccp-modal') {
-                        iframe.src = "page_ccp.html";
+                        iframe.src = "PageCCP.aspx";
                     }
                     else if (element.id === 'atap-modal') {
-                        iframe.src = "page_atap.html";
+                        iframe.src = "PageATAP.aspx";
                     }
                     else if (element.id === 'mrip-modal') {
-                        iframe.src = "page_mrip.html";
+                        iframe.src = "PageMRIP.aspx";
                     }
                     else if (element.id === 'sep-modal') {
-                        iframe.src = "page_sep.html";
+                        iframe.src = "PageSEP.aspx";
                     }
                     iframe.height = "100%";
                     iframe.width = "100%";

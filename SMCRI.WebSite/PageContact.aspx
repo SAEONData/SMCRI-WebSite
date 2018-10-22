@@ -1,11 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageContact.aspx.cs" Inherits="SMCRI.WebSite.PageContact" %>
+﻿<%@ Page Title="Contacts" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageContact.aspx.cs" Inherits="SMCRI.WebSite.PageContact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
         <div class="col s12 m6">
             <div class="card grey lighten-1" style="min-height:425px">
                 <div class="card-content black-text">
-                    <span class="card-title">Contact Central Coordinating Unit<img src="/Images/NRF-SAEON LOGO.jpg" class="card-logo right" /></span>
+                    <span class="card-title"><h4>Contact Central Coordinating Unit</h4><img src="/Images/NRF-SAEON LOGO.jpg" class="card-logo right" /></span>
                     <p>
                         Ocean Sciences Campus, Nelson Mandela University<br />
                         Gomery Avenue, Summerstrand<br />
@@ -22,7 +22,7 @@
         <div class="col s12 m6">
             <div class="card grey lighten-1" style="min-height:425px">
                 <div class="card-content black-text">
-                    <span class="card-title">Contact SAIAB<img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" /></span>
+                    <span class="card-title"><h4>Contact SAIAB</h4><img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" /></span>
                     <p>
                         South African Institute for Aquatic Biodiversity<br />
                         Somerset Street<br />

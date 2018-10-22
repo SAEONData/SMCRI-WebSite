@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageAbout.aspx.cs" Inherits="SMCRI.WebSite.PageAbout" %>
+﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Page.Master" AutoEventWireup="true" CodeBehind="PageAbout.aspx.cs" Inherits="SMCRI.WebSite.PageAbout" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
@@ -22,7 +22,7 @@
     <div class="col s12 m6">
         <div class="card grey lighten-1">
             <div class="card-content black-text">
-                <span class="card-title">About</span>
+                <span class="card-title"><h4>About</h4></span>
                 <p>
                     The Shallow Marine and Coastal
                         Research Infrastructure (SMCRI) is one
