@@ -5,7 +5,7 @@
         <div class="col s12 m6">
             <div class="card grey lighten-1" style="min-height:450px">
                 <div class="card-content black-text">
-                    <span class="card-title"><h4>Contact Central Coordinating Unit</h4><img src="/Images/NRF-SAEON LOGO.jpg" class="card-logo right" /></span>
+                    <h4 class="card-title">Contact Central Coordinating Unit</h4><img src="/Images/NRF-SAEON LOGO.jpg" class="card-logo right" />
                     <p>
                         Ocean Sciences Campus, Nelson Mandela University<br />
                         Gomery Avenue, Summerstrand<br />
@@ -22,7 +22,7 @@
         <div class="col s12 m6">
             <div class="card grey lighten-1" style="min-height:450px">
                 <div class="card-content black-text">
-                    <span class="card-title"><h4>Contact SAIAB</h4><img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" /></span>
+                    <h4 class="card-title">Contact SAIAB</h4><img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" />
                     <p>
                         South African Institute for Aquatic Biodiversity<br />
                         Somerset Street<br />

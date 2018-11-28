@@ -164,6 +164,8 @@
     <Content Include="Images\SMCRI Booklet-1.png" />
     <Content Include="Images\SMCRI Booklet-map.png" />
     <Content Include="Images\SMCRI Booklet-value chain.png" />
+    <Content Include="Images\SMCRI_Booklet-map.jpg" />
+    <Content Include="Images\SMCRI_Booklet-value_chain.jpg" />
     <Content Include="Images\Team_cropped.jpg" />
     <Content Include="Images\twitter.png" />
     <Content Include="Images\Where you want_2.jpg" />
