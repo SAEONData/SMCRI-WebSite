@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SMCRI.WebSite")]
 [assembly: AssemblyDescription("Shallow Marine & Coastal Research Infrastructure (SMCRI) Website")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("South African Environmental Observation Network")]
+[assembly: AssemblyCompany("South African Environmental Observation Network (SAEON)")]
 [assembly: AssemblyProduct("Shallow Marine & Coastal Research Infrastructure (SMCRI)")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("©  2018-2019 South African Environmental Observation Network")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
