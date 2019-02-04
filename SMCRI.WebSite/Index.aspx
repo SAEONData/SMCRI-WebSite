@@ -12,7 +12,7 @@
             </div>
         </div>
         <div>
-            <img src="/Images/SMCRI Booklet-map.png" alt="SMCRI map" style="width: 100%">
+            <img src="/Images/SMCRI Booklet-map.jpg" alt="SMCRI map" style="width: 100%">
         </div>
     </div>
 </asp:Content>

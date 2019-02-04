@@ -12,7 +12,7 @@
                     <a class="carousel-item" href="#two!">
                         <img src="/Images/Where you want_2.jpg"></a>
                     <a class="carousel-item" href="#three!">
-                        <img src="/Images/SMCRI Booklet-1.png"></a>
+                        <img src="/Images/SMCRI Booklet-1.jpg"></a>
                     <a class="carousel-item" href="#four!">
                         <img src="/Images/Introduction_1.bmp"></a>
                 </div>

@@ -8,7 +8,7 @@
             <div class="card-content black-text">
                 <div class="carousel carousel-slider">
                     <a class="carousel-item" href="#one!">
-                        <img src="/Images/Marion Island_3.png" /></a>
+                        <img src="/Images/Marion Island_3.jpg" /></a>
                     <a class="carousel-item" href="#two!">
                         <img src="/Images/Marion Island_2.jpg"></a>
                     <a class="carousel-item" href="#three!">

@@ -8,7 +8,8 @@
             <div class="card-content black-text">
                 <div class="carousel carousel-slider">
                     <a class="carousel-item" href="#one!">
-                        <img src="/Images/Data Management Platform 03.PNG" /></a>
+                        <img src="/Images/Data Management Platform 03.png" />
+                    </a>
                     <a class="carousel-item" href="#two!">
                         <img src="/Images/DMP 2.jpg"></a>
                     <a class="carousel-item" href="#three!">

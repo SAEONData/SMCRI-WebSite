@@ -109,8 +109,12 @@
     <Content Include="Images\Acoustic telemetry_1.JPG" />
     <Content Include="Images\Acoustic telemetry_2.jpg" />
     <Content Include="Images\Acoustic telemetry_3.jpg" />
+    <Content Include="Images\Acoustic_telemetry_2.jpg" />
+    <Content Include="Images\Acoustic_telemetry_3.jpg" />
     <Content Include="Images\Airborne Remote sensing_1.jpg" />
     <Content Include="Images\Airborne Remote Sensing_3.jpg" />
+    <Content Include="Images\Airborne_Remote_sensing_1.jpg" />
+    <Content Include="Images\Airborne_Remote_Sensing_3.jpg" />
     <Content Include="Images\Algoa bay Sentinel Site_1.JPG" />
     <Content Include="Images\Algoa Bay Sentinel Site_2.JPG" />
     <Content Include="Images\Algoa Bay Sentinel Site_map.jpg" />
@@ -118,7 +122,10 @@
     <Content Include="Images\Algoa Bay SS_4_PlonStephanie.JPG" />
     <Content Include="Images\Algoa Bay SS_5_PlonStephanie.JPG" />
     <Content Include="Images\Algoa BaySS_3_PlonStephanie.JPG" />
+    <Content Include="Images\Algoa_Bay_Sentinel_Site_map.jpg" />
+    <Content Include="Images\Algoa_Bay_SS_2.jpg" />
     <Content Include="Images\Biogeochemistry Lab 2.jpg" />
+    <Content Include="Images\Biogeochemistry_Lab_2.jpg" />
     <Content Include="Images\Biogeo_1_WaterQualityLab.jpg" />
     <Content Include="Images\Biogeo_2_Chemistry.jpg" />
     <Content Include="Images\Biogeo_3_Filtration.jpg" />
@@ -128,50 +135,80 @@
     <Content Include="Images\CCU_5_mainLab.jpg" />
     <Content Include="Images\CCU_6_wetlab.jpg" />
     <Content Include="Images\Central Coordinating Unit.jpg" />
+    <Content Include="Images\Central_Coordinating_Unit.jpg" />
     <Content Include="Images\Coastal Craft_3.jpg" />
     <Content Include="Images\Coastal craft_4.JPG" />
+    <Content Include="Images\Coastal_Craft_3.jpg" />
+    <Content Include="Images\Data Management Platform 03.jpg" />
     <Content Include="Images\Data Management Platform 03.PNG" />
+    <Content Include="Images\Data_Management_Platform_03.PNG.jpg" />
     <Content Include="Images\Decompression chamber.jpg" />
     <Content Include="Images\Decompression chamber_extra2.jpg" />
+    <Content Include="Images\Decompression_chamber.jpg" />
+    <Content Include="Images\Decompression_chamber_extra2.jpg" />
     <Content Include="Images\Diver_anywhere.jpg" />
     <Content Include="Images\DMP 2.JPG" />
     <Content Include="Images\DMP 3.jpg" />
+    <Content Include="Images\DMP_3.jpg" />
     <Content Include="Images\False Bay 3.JPG" />
     <Content Include="Images\False Bay_Kelp.png" />
+    <Content Include="Images\False_Bay_Kelp.jpg" />
     <Content Include="Images\Hyperbaric_5.jpg" />
     <Content Include="Images\Introduction_1.bmp" />
+    <Content Include="Images\Introduction_1.jpg" />
+    <Content Include="Images\logo_DEA.jpg" />
     <Content Include="Images\logo_DEA.png" />
+    <Content Include="Images\logo_dst.jpg" />
     <Content Include="Images\logo_dst.png" />
+    <Content Include="Images\logo_odp.jpg" />
     <Content Include="Images\logo_odp.png" />
     <Content Include="Images\Marine remote sensing Deep lander.jpg" />
     <Content Include="Images\Marine Remote sensing_1.jpg" />
+    <Content Include="Images\Marine_Remote_sensing_1.jpg" />
+    <Content Include="Images\Marine_remote_sensing_Deep_lander.jpg" />
     <Content Include="Images\Marion Island_2.jpg" />
     <Content Include="Images\Marion Island_3.png" />
     <Content Include="Images\Marion Island_4.JPG" />
+    <Content Include="Images\Marion_Island_2.jpg" />
+    <Content Include="Images\Marion_Island_3.jpg" />
     <Content Include="Images\Marip or Coastal Craft.jpg" />
+    <Content Include="Images\Marip_or_Coastal_Craft.jpg" />
     <Content Include="Images\Natal Bight_1.JPG" />
     <Content Include="Images\Natal Bight_Kosi Bay.jpg" />
     <Content Include="Images\Natal_Bight_2.JPG" />
+    <Content Include="Images\Natal_Bight_Kosi_Bay.jpg" />
     <Content Include="Images\NRF-SAEON LOGO-1.jpg" />
     <Content Include="Images\NRF-SAEON LOGO.jpg" />
+    <Content Include="Images\NRF-SAEON_LOGO-1.jpg" />
+    <Content Include="Images\NRF-SAEON_LOGO.jpg" />
     <Content Include="Images\NRF-SAIAB logo.jpg" />
+    <Content Include="Images\NRF-SAIAB_logo.jpg" />
     <Content Include="Images\Satellite sentinel sites.jpg" />
     <Content Include="Images\Satellite Sentinel Sites_1.jpg" />
     <Content Include="Images\Satellite sentinel sites_2.jpg" />
     <Content Include="Images\Satellite sentinel sites_4.jpg" />
+    <Content Include="Images\Satellite_sentinel_sites.jpg" />
+    <Content Include="Images\Satellite_Sentinel_Sites_1.jpg" />
+    <Content Include="Images\Satellite_sentinel_sites_2.jpg" />
+    <Content Include="Images\Satellite_sentinel_sites_4.jpg" />
     <Content Include="Images\Science Engagement_1.jpg" />
     <Content Include="Images\Science engagement_3.jpg" />
+    <Content Include="Images\Science_Engagement_1.jpg" />
+    <Content Include="Images\Science_engagement_3.jpg" />
     <Content Include="Images\SMCRI Booklet Credits.JPG" />
     <Content Include="Images\SMCRI Booklet-1.png" />
     <Content Include="Images\SMCRI Booklet-map.png" />
     <Content Include="Images\SMCRI Booklet-value chain.png" />
+    <Content Include="Images\SMCRI_Booklet-1.jpg" />
     <Content Include="Images\SMCRI_Booklet-map.jpg" />
     <Content Include="Images\SMCRI_Booklet-value_chain.jpg" />
     <Content Include="Images\Team_cropped.jpg" />
+    <Content Include="Images\twitter.jpg" />
     <Content Include="Images\twitter.png" />
     <Content Include="Images\Where you want_2.jpg" />
     <Content Include="Images\Where you want_3.JPG" />
     <Content Include="Images\Where you want_4.JPG" />
+    <Content Include="Images\Where_you_want_2.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="js\init.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -221,6 +258,9 @@
     <Content Include="fonts\roboto\Roboto-Regular.woff2" />
     <Content Include="fonts\roboto\Roboto-Thin.woff" />
     <Content Include="fonts\roboto\Roboto-Thin.woff2" />
+    <Content Include="Images\Optimized\jpegio-1549290033416.zip" />
+    <Content Include="Images\Optimized\jpegio-1549290210177.zip" />
+    <Content Include="Images\Optimized\jpegio-1549290283877.zip" />
     <None Include="Properties\PublishProfiles\SAEON.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -447,6 +487,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\Full Size\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

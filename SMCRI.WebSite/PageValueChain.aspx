@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="BodyContent" runat="server">
     <div class="col s12 center">
-        <img src="/Images/SMCRI Booklet-value chain.png" class="white" style="width: 1000px; height: auto" />
+        <img src="/Images/SMCRI Booklet-value chain.jpg" class="white" style="width: 1000px; height: auto" />
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ScriptContent" runat="server">
