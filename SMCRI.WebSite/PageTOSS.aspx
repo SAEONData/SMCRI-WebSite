@@ -8,7 +8,7 @@
             <div class="card-content black-text">
                 <div class="carousel carousel-slider">
                     <a class="carousel-item" href="#one!">
-                        <img src="/Images/False Bay_Kelp.jpg" /></a>
+                        <img src="/Images/False Bay_Kelp.png" /></a>
                     <a class="carousel-item" href="#two!">
                         <img src="/Images/False Bay 3.JPG"></a>
                 </div>
