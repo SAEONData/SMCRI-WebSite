@@ -14,7 +14,7 @@
                     <a class="carousel-item" href="#three!">
                         <img src="/Images/SMCRI Booklet-1.jpg"></a>
                     <a class="carousel-item" href="#four!">
-                        <img src="/Images/Introduction_1.bmp"></a>
+                        <img src="/Images/Introduction_1.jpg"></a>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
     <div class="col s12 m6">
         <div class="card grey lighten-1">
             <div class="card-content black-text">
-                <span class="card-title"><h4>About</h4></span>
+                <h4><span class="card-title">About</span></h4>
                 <p>
                     The Shallow Marine and Coastal
                         Research Infrastructure (SMCRI) is one

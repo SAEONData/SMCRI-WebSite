@@ -1,18 +1,18 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SMCRI.WebSite.Site" %>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-za">
 <head>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta charset="utf-8">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128063984-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-128063984-1');
     </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="msvalidate.01" content="C8A2A99147917721302B2895028A760C" />
     <meta name="google-site-verification" content="X5PEowbP3hWPiigk5XU_VSVb79bjwBjAumMd0SnanjM" />
@@ -120,10 +120,10 @@
                         <li><a class="modal-trigger" href="#resources-modal">Resources</a></li>
                     </ul>
 
-                    <ul id="nav-mobile" class="side-nav">
+<%--                    <ul id="nav-mobile" class="side-nav">
                         <li><a href="#">Navbar Link</a></li>
                     </ul>
-                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>--%>
                 </div>
             </nav>
 
