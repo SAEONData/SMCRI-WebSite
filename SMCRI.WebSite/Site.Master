@@ -48,7 +48,7 @@
             <ul id="slide-out" class="side-nav">
 
                 <li class="no-padding">
-                    <img style="width: 200px; padding-left: 40px" src="Images/NRF-SAEON LOGO.jpg">
+                    <img style="width: 200px; padding-left: 40px" src="Images/SAEON LOGO 20th.png">
                 </li>
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
@@ -112,7 +112,7 @@
 
             <nav class="white" role="navigation">
                 <div class="nav-wrapper container">
-                    <img style="height: 60px;" src="Images/NRF-SAEON LOGO.jpg">
+                    <img style="height: 60px;" src="Images/SAEON LOGO 20th.png">
                     <a id="logo-container" href="#" class="brand-logo">&nbsp;&nbsp;</a>
                     <ul class="right hide-on-med-and-down">
                         <li><a class="modal-trigger" href="#about-modal">About</a></li>
