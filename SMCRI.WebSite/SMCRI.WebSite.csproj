@@ -274,6 +274,7 @@
     <None Include="Images\Optimized\Team_cropped.jpg" />
     <None Include="Images\Optimized\twitter.jpg" />
     <None Include="Images\Optimized\Where_you_want_2.jpg" />
+    <Content Include="Images\SAEON 20th Logo.png" />
     <Content Include="Images\SAEON LOGO 20th.png" />
     <Content Include="Images\Satellite sentinel sites.jpg" />
     <Content Include="Images\Satellite Sentinel Sites_1.jpg" />

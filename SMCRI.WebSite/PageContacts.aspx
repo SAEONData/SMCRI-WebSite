@@ -12,7 +12,6 @@
                         Port Elizabeth, 6001<br />
                         South Africa<br />
                         <i class="small material-icons">phone</i>+27 41 504 4750<br />
-                        <i class="small material-icons">email</i><a href="mailto:smcri@saeon.ac.za">smcri@saeon.ac.za</a><br />
                         <i class="small material-icons">language</i><a href="http://smcri.saeon.ac.za" target="_blank">http://smcri.saeon.ac.za</a><br />
                         <img src="/Images/twitter.png" alt="" /><a href="http://twitter.com/SMCRI_ZA" target="_blank">SMCRI_ZA</a><br />
                     </p>
