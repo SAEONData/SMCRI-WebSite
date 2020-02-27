@@ -118,7 +118,9 @@
     <Content Include="css\materialize.min.css" />
     <Content Include="css\overwrites.css" />
     <Content Include="css\style.css" />
+    <Content Include="docs\Ocean Sciences at Mandela University 720.mp4" />
     <Content Include="docs\Ocean Sciences At Mandela University.mp4" />
+    <Content Include="docs\SMCRI Launch Video 720.mp4" />
     <Content Include="docs\SMCRI Launch Video.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="Forms\SMCRIAdvisoryPanelMeeting2019.aspx" />
