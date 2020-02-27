@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SMCRI.WebSite {
-    
-    
-    public partial class Site {
-        
+namespace SMCRI.WebSite
+{
+
+
+    public partial class Site
+    {
+
         /// <summary>
         /// HeadContent control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace SMCRI.WebSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
-        
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace SMCRI.WebSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// BodyContent control.
         /// </summary>

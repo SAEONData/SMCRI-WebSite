@@ -405,7 +405,6 @@
     <script src="/Scripts/jquery-3.4.1.min.js"></script>
     <script src="/js/materialize.min.js"></script>
     <script src="/js/init.js"></script>
-
     <script>
         $('.button-collapse').sideNav({
             menuWidth: 360

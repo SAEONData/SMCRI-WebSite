@@ -20,10 +20,10 @@
     <div class="col s12 m6">
         <div class="card grey lighten-1">
             <div class="card-content black-text">
-                <span class="card-title">
-                    <h4>Coastal Craft Platform</h4>
-                    <img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" /></span>
+                <h4><span class="card-title">Coastal Craft Platform</span></h4>
                 <p>
+                    <img src="/Images/NRF-SAEON logo.jpg" class="card-logo right" />
+                    <img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" />
                     The SMCRI supports and expanded on
                         the Coastal Craft fleet developed by the
                         SAIAB through the African Coelacanth

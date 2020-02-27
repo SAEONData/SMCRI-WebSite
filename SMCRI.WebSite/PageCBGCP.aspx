@@ -22,7 +22,7 @@
     <div class="col s12 m6">
         <div class="card grey lighten-1">
             <div class="card-content black-text">
-                <span class="card-title"><h4>Coastal Biogeochemistry Platform</h4><img src="/Images/NRF-SAEON LOGO.jpg" class="card-logo right" /></span>
+                <h4><span class="card-title">Coastal Biogeochemistry Platform<img src="/Images/NRF-SAEON LOGO.jpg" class="card-logo right" /></span></h4>
                 <p>
                     The Coastal Biogeochemistry Platform
                         is housed at the Ocean Sciences

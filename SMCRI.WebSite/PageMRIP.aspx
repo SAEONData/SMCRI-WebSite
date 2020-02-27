@@ -18,8 +18,10 @@
     <div class="col s12 m6">
         <div class="card grey lighten-1">
             <div class="card-content black-text">
-                <span class="card-title"><h4>Marine Remote Imaging Platform</h4><img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" /></span>
+                <span class="card-title"><h4>Marine Remote Imaging Platform</h4></span>
                 <p>
+                    <img src="/Images/NRF-SAEON logo.jpg" class="card-logo right" />
+                    <img src="/Images/NRF-SAIAB logo.jpg" class="card-logo right" />
                     The Marine Remote Imagery Platform
                         (MAR-IP), managed by SAIAB, provides
                         access to a variety of underwater
