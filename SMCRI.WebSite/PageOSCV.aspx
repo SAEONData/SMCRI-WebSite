@@ -8,7 +8,7 @@
             <div class="card-content black-text">
                 <span class="card-title"><h4>Ocean Sciences at Mandela University</h4></span>
                 <video controls autoplay height="800" class="responsive-video">
-                    <source src="/docs/Ocean Sciences at Mandela University.mp4" type="video/mp4" />
+                    <source src="/docs/Ocean Sciences at Mandela University 720.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>

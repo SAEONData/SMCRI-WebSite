@@ -402,7 +402,7 @@
         </div>
     </form>
     <!--  Scripts-->
-    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery-3.4.1.min.js"></script>
     <script src="/js/materialize.min.js"></script>
     <script src="/js/init.js"></script>
 

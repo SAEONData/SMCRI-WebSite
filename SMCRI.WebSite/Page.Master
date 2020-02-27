@@ -51,7 +51,7 @@
         </div>
     </form>
     <!--Import jQuery before materialize.js-->
-    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery-3.4.1.min.js"></script>
     <script src="/js/materialize.min.js"></script>
     <asp:ContentPlaceHolder ID="ScriptContent" runat="server">
     </asp:ContentPlaceHolder>

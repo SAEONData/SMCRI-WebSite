@@ -10,7 +10,7 @@
                     <h4>Shallow Marine and Coastal Research Infrastructure Launch</h4>
                 </span>
                 <video controls autoplay height="800" class="responsive-video">
-                    <source src="/docs/SMCRI Launch Video.mp4" type="video/mp4" />
+                    <source src="/docs/SMCRI Launch Video 720.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
