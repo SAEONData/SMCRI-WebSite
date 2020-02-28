@@ -1,0 +1,492 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SMCRI.WebSite.Site" %>
+
+<!DOCTYPE html>
+<html lang="en-za">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128063984-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-128063984-1');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="msvalidate.01" content="C8A2A99147917721302B2895028A760C" />
+    <meta name="google-site-verification" content="X5PEowbP3hWPiigk5XU_VSVb79bjwBjAumMd0SnanjM" />
+    <title>Shallow Marine and Coastal Research Infrastructure (SMCRI)</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/materialize.min.css" type="text/css" rel="stylesheet"/>
+    <link href="/css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="/css/overwrites.css" type="text/css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--
+    To collect user behavior analytics about your application,
+    insert the following script into each page you want to track.
+    Place this code immediately before the closing </head> tag,
+    and before any other scripts. Your first data will appear
+    automatically in just a few seconds.
+    -->
+    <script type="text/javascript">
+        var appInsights = window.appInsights || function (a) {
+            function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement("script"); b.src = a.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js", d.getElementsByTagName("script")[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ["Event", "Exception", "Metric", "PageView", "Trace", "Dependency"]; f.length;)b("track" + f.pop()); if (b("setAuthenticatedUserContext"), b("clearAuthenticatedUserContext"), b("startTrackEvent"), b("stopTrackEvent"), b("startTrackPage"), b("stopTrackPage"), b("flush"), !a.disableExceptionTracking) { f = "onerror", b("_" + f); var g = e[f]; e[f] = function (a, b, d, e, h) { var i = g && g(a, b, d, e, h); return !0 !== i && c["_" + f](a, b, d, e, h), i } } return c
+        }({
+            instrumentationKey: "27919d20-2975-4378-b965-33011617b211"
+        });
+
+        window.appInsights = appInsights, appInsights.queue && 0 === appInsights.queue.length && appInsights.trackPageView();
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- Side Navigation-->
+            <ul id="slide-out" class="side-nav">
+
+                <li class="no-padding">
+                    <img style="width: 200px; padding-left: 40px" src="~/Images/SAEON LOGO 20th.png" runat="server">
+                </li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header grey lighten-2">SMCRI<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a class="modal-trigger" href="#about-modal" style="font-size: 12px; text-indent: 50px">About</a></li>
+                                    <li><a class="modal-trigger" href="#ccu-modal" style="font-size: 12px; text-indent: 50px">Central Coordinating Unit</a></li>
+                                    <li><a class="modal-trigger" href="#valuechain-modal" style="font-size: 12px; text-indent: 50px">Value Chain</a></li>
+                                    <li><a class="modal-trigger" href="#contact-modal" style="font-size: 12px; text-indent: 50px">Contacts</a></li>
+                                    <li><a class="modal-trigger" href="#resources-modal" style="font-size: 12px; text-indent: 50px">Resources</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Sentinel sites<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a class="modal-trigger" href="#abss-modal" style="font-size: 12px; text-indent: 50px">Algoa Bay Sentinel Site</a></li>
+                                    <li><a class="modal-trigger" href="#toss-modal" style="font-size: 12px; text-indent: 50px">Two Oceans Sentinel Site</a></li>
+                                    <li><a class="modal-trigger" href="#nbss-modal" style="font-size: 12px; text-indent: 50px">Natal Bight Sentinel Site</a></li>
+                                    <li><a class="modal-trigger" href="#miss-modal" style="font-size: 12px; text-indent: 50px">Marion Island Sentinel Site</a></li>
+                                    <li><a class="modal-trigger" href="#sss-modal" style="font-size: 12px; text-indent: 50px">Satellite Sentinel Sites</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Platforms<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a class="modal-trigger" href="#arsp-modal" style="font-size: 12px; text-indent: 50px">Airborne Remote Sensing Platform</a></li>
+                                    <li><a class="modal-trigger" href="#cbgcp-modal" style="font-size: 12px; text-indent: 50px">Coastal Biogeochemistry Platform</a></li>
+                                    <li><a class="modal-trigger" href="#hcp-modal" style="font-size: 12px; text-indent: 50px">Hyperbaric Chamber Platform</a></li>
+                                    <li><a class="modal-trigger" href="#dmp-modal" style="font-size: 12px; text-indent: 50px">Data Management Platform</a></li>
+                                    <li><a class="modal-trigger" href="#ccp-modal" style="font-size: 12px; text-indent: 50px">Coastal Craft Platform</a></li>
+                                    <li><a class="modal-trigger" href="#atap-modal" style="font-size: 12px; text-indent: 50px">Acoustic Telemetry Array Platform</a></li>
+                                    <li><a class="modal-trigger" href="#mrip-modal" style="font-size: 12px; text-indent: 50px">Marine Remote Imaging Platform</a></li>
+                                    <li><a class="modal-trigger" href="#sep-modal" style="font-size: 12px; text-indent: 50px">Science Engagement Platform</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="no-padding">
+                    <img style="width: 240px" src="~/Images/logo_odp.jpg" runat="server"></li>
+            </ul>
+            <div class="valign-wrapper">
+                <a href="#" data-activates="slide-out" class="button-collapse menu-link"><i class="small material-icons black-text">menu</i></a><a href="#" data-activates="slide-out" class="menu-link">Menu</a>
+            </div>
+
+            <nav class="white" role="navigation">
+                <div class="nav-wrapper container">
+                    <img style="height: 60px;" src="~/Images/SAEON LOGO 20th.png" runat="server">
+                    <a id="logo-container" href="#" class="brand-logo">&nbsp;&nbsp;</a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="modal-trigger" href="#about-modal">About</a></li>
+                        <li><a class="modal-trigger" href="#contact-modal">Contacts</a></li>
+                        <li><a class="modal-trigger" href="#resources-modal">Resources</a></li>
+                    </ul>
+
+                    <%--                    <ul id="nav-mobile" class="side-nav">
+                        <li><a href="#">Navbar Link</a></li>
+                    </ul>
+                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>--%>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="section">
+                    <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <footer class="page-footer grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col m4 s12">
+                            <h5 class="white-text light">Legal</h5>
+                            <ul>
+                                <li><a class="white-text light" href="#!">Disclaimer</a></li>
+                                <li><a class="white-text light" href="#!">Terms and Conditions</a></li>
+                                <li><a class="white-text light" href="#!">Data Licenses</a></li>
+                                <li><a class="white-text light" href="#!">Privacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col m4 s12">
+                            <h5 class="white-text light">SAEON ODP</h5>
+                            <ul>
+                                <li><a class="white-text light" href="#!">Open Data Platform</a></li>
+                                <li><a class="white-text light" href="#!">For Stakeholders</a></li>
+                                <li><a class="white-text light" href="#!">For Developers</a></li>
+                                <li><a class="white-text light" href="#!">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col m4 s12">
+                            <h5 class="white-text light">Funding</h5>
+                            <a href="https://www.dst.gov.za/" target="_blank">
+                                <img class="footer-image dsi-logo" src="Images/DSI logo.jpg" alt="Department of Science and Innovation logo" title="Department of Science and Innovation" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        Created by <a class="blue-text text-lighten-3" href="http://www.saeon.ac.za">SAEON</a> using <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> and SAEON Open Data Platform APIs.
+                    </div>
+                </div>
+            </footer>
+
+            <!--MODALS-->
+            <!--GENERAL MODAL-->
+
+            <div id="about-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row valign-wrapper">
+                        <div class="col s10">
+                            <h5>SMCRI</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ccu-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>SMCRI</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="valuechain-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>SMCRI</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="credits-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>SMCRI</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="contact-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>SMCRI</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="resources-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>SMCRI</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="abss-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Sentinel Sites</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="toss-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Sentinel Sites</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="nbss-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Sentinel Sites</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="miss-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Sentinel Sites</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="sss-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Sentinel Sites</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="arsp-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="cbgcp-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="hcp-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="dmp-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="ccp-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="atap-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="mrip-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="sep-modal" class="modal">
+                <div class="modal-content" style="padding-bottom: 0; margin-bottom: 0">
+                    <div class="row">
+                        <div class="col s10">
+                            <h5>Platforms</h5>
+                        </div>
+                        <div class="col s2"><a class="waves-effect waves-light btn modal-action modal-close red right"><i class="material-icons right">close</i>Close</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <!--  Scripts-->
+    <script src="/Scripts/jquery-3.4.1.js"></script>
+    <script src="/js/materialize.min.js"></script>
+    <script src="/js/init.js"></script>
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 360
+        });
+        $('.menu-link').sideNav({
+            menuWidth: 360
+        });
+        $('.parallax').parallax();
+        $(document).ready(function () {
+            $('.modal').modal({
+                //opacity: .5,
+                startingTop: '-2%',
+                endingTop: '3%',
+                ready: function (modal, trigger) {
+                    var element = modal[0]
+                    var iframe = document.createElement("iframe");
+
+                    if (element.id === 'about-modal') {
+                        iframe.src = "PageAbout.aspx";
+                    }
+                    else if (element.id === 'ccu-modal') {
+                        iframe.src = "PageCCU.aspx";
+                    }
+                    else if (element.id === 'valuechain-modal') {
+                        iframe.src = "PageValueChain.aspx";
+                    }
+                    else if (element.id === 'credits-modal') {
+                        iframe.src = "PageCredits.aspx";
+                    }
+                    else if (element.id === 'contact-modal') {
+                        iframe.src = "PageContacts.aspx";
+                    }
+                    else if (element.id === 'resources-modal') {
+                        iframe.src = "PageResources.aspx";
+                    }
+                    else if (element.id === 'abss-modal') {
+                        iframe.src = "PageABSS.aspx";
+                    }
+                    else if (element.id === 'toss-modal') {
+                        iframe.src = "PageTOSS.aspx";
+                    }
+                    else if (element.id === 'nbss-modal') {
+                        iframe.src = "PageNBSS.aspx";
+                    }
+                    else if (element.id === 'miss-modal') {
+                        iframe.src = "PageMISS.aspx";
+                    }
+                    else if (element.id === 'sss-modal') {
+                        iframe.src = "PageSSS.aspx";
+                    }
+                    else if (element.id === 'arsp-modal') {
+                        iframe.src = "PageARSP.aspx";
+                    }
+                    else if (element.id === 'cbgcp-modal') {
+                        iframe.src = "PageCBGCP.aspx";
+                    }
+                    else if (element.id === 'hcp-modal') {
+                        iframe.src = "PageHCP.aspx";
+                    }
+                    else if (element.id === 'dmp-modal') {
+                        iframe.src = "PageDMP.aspx";
+                    }
+                    else if (element.id === 'ccp-modal') {
+                        iframe.src = "PageCCP.aspx";
+                    }
+                    else if (element.id === 'atap-modal') {
+                        iframe.src = "PageATAP.aspx";
+                    }
+                    else if (element.id === 'mrip-modal') {
+                        iframe.src = "PageMRIP.aspx";
+                    }
+                    else if (element.id === 'sep-modal') {
+                        iframe.src = "PageSEP.aspx";
+                    }
+                    iframe.height = "100%";
+                    iframe.width = "100%";
+
+                    element.appendChild(iframe);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

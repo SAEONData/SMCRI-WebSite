@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "Marion Island Sentinel Site";
+}
+
+<div class="row card-row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="~/Images/Marion Island_3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Images/Marion Island_2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="~/Images/Marion Island_4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h4>
+                    <b>@ViewBag.Title</b>
+                    <img src="/Images/NRF-SAEON LOGO.jpg" class="img-fluid rounded float-right card-image" />
+                </h4>
+            </div>
+            <div class="card-body">
+                <p>
+                    Marion Island is one of two islands that form part of the Prince Edward Island group in the sub-antarctic, approximately 1769 km south-east of Port
+                    Elizabeth, forming the southernmost part of South Africa. Marion Island has an area of 290 km2, a steep coastline of 72 km and a maximum elevation at Mascarin Peak of
+                    1242 m above sea level. The island is part of the Southern Indian Ocean Islands tundra ecoregion that is host to a wide variety of species that are critical to conservation.
+                    As a result, the South African government declared the Prince Edward Islands a Special Nature Reserve in 2003 and 180 000 km2 of ocean around the islands a Marine Protected
+                    Area in 2013, one of the world’s largest environmental protection areas. 10 SHALLOW MARINE AND COASTAL RESEARCH INFRASTRUCTURE 11 Marion Island Sentinel Site
+                    Global climate change in the Southern Ocean is causing shifts in the position and intensity of the major frontal systems and changes in oceanic circulation patterns
+                    within the region of the islands. The islands’ climate has as a result changed significantly over the last few decades, becoming warmer and drier, causing the loss of the
+                    ice plateau and permanent snow cover on Mascarin Peak. The SMCRI, in collaboration and in consultation with the Department of Environmental Affairs, the South African
+                    Marine and Antarctic Research Facility, the South African National Antarctic Programme and various other research entities, will establish a suite of observatories in the
+                    coastal zone to study environmental drivers, ecological processes and change.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script type="text/javascript">
+        $(function () {
+            $('.carousel').carousel({
+                interval: 2000
+            });
+        })
+    </script>
+}
+
+
+
+

@@ -1,5 +1,0 @@
-# Allow all
-User-agent: *
-Allow: /
-
-Sitemap: https://smcri.saeon.ac.za/sitemap.xml
