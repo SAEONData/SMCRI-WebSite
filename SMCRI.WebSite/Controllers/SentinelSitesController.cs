@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace SMCRI.WebSite.Controllers
 {
+    [ResponseCache(Duration = 7 * 24 * 60 * 60)]
     public class SentinelSitesController : Controller
     {
         private readonly ILogger<SentinelSitesController> _logger;

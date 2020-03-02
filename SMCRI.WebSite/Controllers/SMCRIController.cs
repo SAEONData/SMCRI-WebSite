@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 
 namespace SMCRI.WebSite.Controllers
 {
+    [ResponseCache(Duration = 7 * 24 * 60 * 60)]
     public class SMCRIController : Controller
     {
         private readonly ILogger<SMCRIController> _logger;

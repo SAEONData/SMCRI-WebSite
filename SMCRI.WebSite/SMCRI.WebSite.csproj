@@ -10,11 +10,18 @@
     <Product>South African Estuary Information System (SAEIS)</Product>
     <Description>The South African Estuary Information System (SAEIS) is a web-based resource, providing details of research, monitoring and management associated with South African estuaries.</Description>
     <Copyright>Copyright © South African Environmental Observation Network (SAEON)</Copyright>
+    <ApplicationInsightsResourceId>/subscriptions/53cea979-29f9-43db-aa3d-8349a5bd3452/resourcegroups/SAEON.SMCRI/providers/microsoft.insights/components/SAEON.SMCRI.WebSite</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.435" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.13.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="SimpleMvcSitemap" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 
