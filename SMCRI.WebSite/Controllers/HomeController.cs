@@ -32,8 +32,8 @@ namespace SMCRI.WebSite.Controllers
             nodes.Add(new SitemapNode(Url.Action("About", "SMCRI")));
             nodes.Add(new SitemapNode(Url.Action("Contacts", "SMCRI")));
             nodes.Add(new SitemapNode(Url.Action("Resources", "SMCRI")));
-            nodes.Add(new SitemapNode(Url.Action("LaunchVideo", "SMCRI")) { Video = new SitemapVideo("Shallow Marine and Coastal Research Infrastructure (SMCRI) Launch Video", null, null, Url.Action("LaunchVideo", "SMCRI")) });
-            nodes.Add(new SitemapNode(Url.Action("OSCVideo", "SMCRI")) { Video = new SitemapVideo("Ocean Sciences at Nelson Mandela University", null, null, Url.Action("OSCVideo", "SMCRI")) });
+            nodes.Add(new SitemapNode(Url.Action("LaunchVideo", "SMCRI")) { Video = new SitemapVideo("Shallow Marine and Coastal Research Infrastructure (SMCRI) Launch Video", null, null, Url.Content("~/docs/SMCRI Launch Video 720.mp4")) });
+            nodes.Add(new SitemapNode(Url.Action("OSCVideo", "SMCRI")) { Video = new SitemapVideo("Ocean Sciences at Nelson Mandela University", null, null, Url.Content("~/docs/Ocean Sciences at Mandela University 720.mp4")) });
             nodes.Add(new SitemapNode(Url.Action("ValueChain", "SMCRI")));
             nodes.Add(new SitemapNode(Url.Action("AlgoaBay", "SentinelSites")));
             nodes.Add(new SitemapNode(Url.Action("MarionIsland", "SentinelSites")));
