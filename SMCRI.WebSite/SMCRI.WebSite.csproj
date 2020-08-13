@@ -7,8 +7,8 @@
     <ApplicationIcon>SAEON.ico</ApplicationIcon>
     <Authors>Tim Parker-Nance</Authors>
     <Company>South African Environmental Observation Network (SAEON)</Company>
-    <Product>South African Estuary Information System (SAEIS)</Product>
-    <Description>The South African Estuary Information System (SAEIS) is a web-based resource, providing details of research, monitoring and management associated with South African estuaries.</Description>
+    <Product>Shallow Marine and Coastal Research Infrastructure (SMCRI)</Product>
+    <Description>The SMCRI was established in 2016 to develop an array of instruments and physical research platforms around the coast of South Africa and its sub-antarctic islands to collect long-term reliable data for scientific research</Description>
     <Copyright>Copyright © South African Environmental Observation Network (SAEON)</Copyright>
     <ApplicationInsightsResourceId>/subscriptions/53cea979-29f9-43db-aa3d-8349a5bd3452/resourcegroups/SAEON.SMCRI/providers/microsoft.insights/components/SAEON.SMCRI.WebSite</ApplicationInsightsResourceId>
   </PropertyGroup>
