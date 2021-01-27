@@ -11,11 +11,12 @@
     <Description>The SMCRI was established in 2016 to develop an array of instruments and physical research platforms around the coast of South Africa and its sub-antarctic islands to collect long-term reliable data for scientific research</Description>
     <Copyright>Copyright © South African Environmental Observation Network (SAEON)</Copyright>
     <ApplicationInsightsResourceId>/subscriptions/53cea979-29f9-43db-aa3d-8349a5bd3452/resourcegroups/SAEON.SMCRI/providers/microsoft.insights/components/SAEON.SMCRI.WebSite</ApplicationInsightsResourceId>
+    <UserSecretsId>284dd593-1d45-4cc0-a291-c0effc460aaf</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
     <PackageReference Include="SimpleMvcSitemap" Version="4.0.0" />
   </ItemGroup>
