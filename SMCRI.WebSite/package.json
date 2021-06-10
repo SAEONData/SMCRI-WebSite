@@ -1,0 +1,19 @@
+{
+  "name": "smcri.website",
+  "version": "1.0.0",
+  "description": "SMCRI Web Site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAEONData/SMCRI-WebSite.git"
+  },
+  "author": "Tim Parker-Nance",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SAEONData/SMCRI-WebSite/issues"
+  },
+  "homepage": "https://github.com/SAEONData/SMCRI-WebSite#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "mdb-ui-kit": "^3.6.0"
+  }
+}
